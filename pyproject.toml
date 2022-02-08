@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "muse-wl"
+version = "0.1.0"
+description = ""
+authors = ["Francois Lanusse <francois.lanusse@cea.fr>", "Marius Millea <mariusmillea@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+jax-cosmo = "^0.1rc9"
+numpyro = "^0.8.0"
+dm-haiku = "^0.0.5"
+optax = "^0.1.0"
+powerbox-jax = {git = "https://github.com/EiffL/powerbox-jax.git", rev = "numpyro"}
+ipykernel = "^6.7.0"
+matplotlib = "^3.5.1"
+jax = {extras = ["cuda"], version = "^0.2.28"}
+muse_inference = {git = "https://github.com/marius311/muse_inference.git", rev = "cdb00d3"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "jorenham/jax_pep503"
+url = "https://jorenham.github.io/jax_pep503/"
+secondary = true
