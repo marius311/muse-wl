@@ -388,7 +388,7 @@ description = ""
 category = "main"
 optional = false
 python-versions = "^3.7.13"
-develop = false
+develop = true
 
 [package.dependencies]
 numpy = ">=1.17.0, <=1.22.4"
@@ -396,10 +396,8 @@ scipy = "^1.4.1"
 tqdm = "^4"
 
 [package.source]
-type = "git"
-url = "https://github.com/marius311/muse_inference.git"
-reference = "795477a"
-resolved_reference = "795477a830b245ef33e6fe4c68a6995101675e94"
+type = "directory"
+url = "../muse-inference"
 
 [[package]]
 name = "nest-asyncio"
@@ -778,7 +776,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.13"
-content-hash = "bd69b62cfbf2323ca95fec66570e54621c9284dd423db7369bfee68f29a3b0cd"
+content-hash = "b7de9df6435975ce8c64e36160bd5ab9b85f4027676828d305a92bc39ad46e28"
 
 [metadata.files]
 absl-py = [
