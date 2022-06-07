@@ -1,6 +1,15 @@
 # MUSE Weak Lensing
 
-## Install
+## Run on Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marius311/muse-wl/blob/main/TestMuse.ipynb)
+
+First cell in the notebook installs environment using the `pyproject.toml` on the `main` branch of this repo. 
+
+To save edits back to the repo, use `File -> Save a copy in Github`.
+
+
+## Local Install
 
 Only dependencies you need in your global Python environment:
 ```
