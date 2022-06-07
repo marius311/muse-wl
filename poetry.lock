@@ -388,7 +388,7 @@ description = ""
 category = "main"
 optional = false
 python-versions = "^3.7.13"
-develop = true
+develop = false
 
 [package.dependencies]
 numpy = ">=1.17.0, <=1.22.4"
@@ -396,8 +396,10 @@ scipy = "^1.4.1"
 tqdm = "^4"
 
 [package.source]
-type = "directory"
-url = "../muse-inference"
+type = "git"
+url = "https://github.com/marius311/muse_inference.git"
+reference = "f984c8c"
+resolved_reference = "f984c8c\n"
 
 [[package]]
 name = "nest-asyncio"
@@ -658,7 +660,7 @@ numpy = ">=1.16.5"
 
 [[package]]
 name = "setuptools"
-version = "62.3.2"
+version = "62.3.3"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "main"
 optional = false
@@ -776,7 +778,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.13"
-content-hash = "b7de9df6435975ce8c64e36160bd5ab9b85f4027676828d305a92bc39ad46e28"
+content-hash = "36be8224f784562a6615e297a9a6c2cb3309fd72465fe6da96ef9669fc91506c"
 
 [metadata.files]
 absl-py = [
@@ -1303,8 +1305,8 @@ scipy = [
     {file = "scipy-1.6.1.tar.gz", hash = "sha256:c4fceb864890b6168e79b0e714c585dbe2fd4222768ee90bc1aa0f8218691b11"},
 ]
 setuptools = [
-    {file = "setuptools-62.3.2-py3-none-any.whl", hash = "sha256:68e45d17c9281ba25dc0104eadd2647172b3472d9e01f911efa57965e8d51a36"},
-    {file = "setuptools-62.3.2.tar.gz", hash = "sha256:a43bdedf853c670e5fed28e5623403bad2f73cf02f9a2774e91def6bda8265a7"},
+    {file = "setuptools-62.3.3-py3-none-any.whl", hash = "sha256:d1746e7fd520e83bbe210d02fff1aa1a425ad671c7a9da7d246ec2401a087198"},
+    {file = "setuptools-62.3.3.tar.gz", hash = "sha256:e7d11f3db616cda0751372244c2ba798e8e56a28e096ec4529010b803485f3fe"},
 ]
 setuptools-scm = [
     {file = "setuptools_scm-6.4.2-py3-none-any.whl", hash = "sha256:acea13255093849de7ccb11af9e1fb8bde7067783450cee9ef7a93139bddf6d4"},
