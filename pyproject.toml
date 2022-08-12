@@ -14,7 +14,7 @@ powerbox-jax = {git = "https://github.com/EiffL/powerbox-jax.git", rev = "numpyr
 ipykernel = "^6.7.0"
 matplotlib = "^3.5.1"
 jax = {extras = ["cuda"], version = ">=0.2.28, <=0.3.1"}
-muse_inference = {git = "https://github.com/marius311/muse_inference.git", rev = "f984c8c"}
+muse_inference = {git = "https://github.com/marius311/muse_inference.git", rev = "e812597"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
